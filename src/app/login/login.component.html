@@ -1,0 +1,19 @@
+
+  <div class="login-container">
+    <h3>Login</h3>
+    <form class="login-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" #txtname placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" #txtemail placeholder="Enter your email">
+      </div>
+      <div class="form-actions">
+        <button (click)="login(txtname.value,txtemail.value)" >Login</button>
+        <button type="button">Cancel</button>
+      </div>
+    </form>
+  </div>
+

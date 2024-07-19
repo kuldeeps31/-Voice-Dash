@@ -1,0 +1,43 @@
+<div class="container">
+    <div class="graph-row">
+        <div class="graph-card" style="width: 500px;">
+            <div>
+                <!--<p style="float: inline-start;">Total Sales:{{totalamount()}}</p>/-->
+                
+                <select (change)="onChartTypeChange($event)"
+              style="float: inline-end;"
+                > 
+                  <!--option doesnot support any event-->
+                    <option value="bar">Bar Chart</option>
+                  <option value="pie">Pie Chart</option>
+                  <option value="line">Line Chart</option>
+                  <option value="doughnut" >Doughnut Chart</option>
+                </select>
+              </div>
+            <h2>{{name}}</h2>
+            <canvas id="bar_graph"></canvas>
+        </div>
+       
+
+        <!--<div class="graph-card"  >
+            <h2>Pie Graph</h2>
+            <canvas id="pie_graph"></canvas>
+        </div>
+    </div>
+
+    <div class="graph-row">
+        <div class="graph-card">
+            <h2>Line Graph</h2>
+
+           <span style="margin-bottom: 10px ;">Total profit:{{totalamount()}}</span>
+            <canvas id="line_graph"></canvas>
+        </div>
+
+        <div class="graph-card">
+            <h2>Doughnut Chart</h2>
+            <canvas id="doughnut_chart"></canvas>
+        </div>
+    </div>-->
+</div>
+
+

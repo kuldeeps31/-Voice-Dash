@@ -1,0 +1,31 @@
+
+
+<div class="voice-container">
+  <button (click)="toggleListening()" class="toggle-btn" style="float: right;background: transparent;  ">
+    <span class="material-symbols-outlined"
+   
+    >
+        {{ isListening ? 'mic'  : 'mic_off' }}
+    </span>
+    
+</button>
+
+    <!--<button (click)="getclear()" class="clear-btn">Clear</button>-->
+   
+    
+      <span> <p>{{ storetext }}</p> </span>
+    
+</div>
+
+<nav class="sidebar-nav">
+    <ul>
+      <li><a routerLink="Home" [class.color]="ishovered1">Home</a></li>
+      
+      <li><a routerLink="about"[class.color]="ishovered3">About</a></li>
+      <li><a routerLink="contact" [class.color]="ishovered2">Contact</a></li>
+      <li><a routerLink="login" [class.color]="ishovered">login</a></li>
+      <li><a routerLink="/dashboard" [class.color]="ishovered4">Dashboard</a></li>
+ 
+    </ul>
+  </nav>
+  

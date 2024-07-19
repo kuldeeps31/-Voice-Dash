@@ -1,0 +1,41 @@
+
+{
+
+    "chartdata":[
+     {
+        "year":2010,
+        "amount":6000,
+        "color":"#FAEBD6"
+     },
+     {
+        "year":2024,
+        "amount":16000,
+        "color":"#52ADA2"
+     },
+     {
+        "year":2023,
+        "amount":9000,
+        "color":"#E54B49"
+     },
+     {
+        "year":2017,
+        "amount":7000,
+        "color":"#938562"
+     },
+     {
+        "year":2011,
+        "amount":0,
+        "color":"#85506D"
+     },
+     {
+        "year":2021,
+        "amount":3000,
+        "color":"#2C323F"
+     },
+     {
+        "year":2018,
+        "amount":8000,
+        "color":"blue"
+     }
+    ]
+}
